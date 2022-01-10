@@ -221,6 +221,7 @@
 
 ---
 ## Референсная архитектура
+Импользуется MVVM (Model-View-View Model)
 ![MVVM](https://github.com/thendray/EventSharing/blob/main/img/модель.jpg)
 
 ### Референсная модель
