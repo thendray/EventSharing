@@ -217,7 +217,7 @@
 
 ---
 ## Компонентная модель
-
+[https://github.com/thendray/EventSharing/blob/main/img/digramm.png]
 ---
 ## Референсная архитектура
 ### Референсная модель
