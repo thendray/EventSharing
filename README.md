@@ -220,12 +220,12 @@
 ![](https://github.com/thendray/EventSharing/blob/main/img/digramm.png)
 
 ---
-## Референсная архитектура
-Импользуется MVC (Model-View-Controler)
+## Архитектура
+
 ![MVC](https://github.com/thendray/EventSharing/blob/main/img/модель.jpg)
 
 ### Референсная модель
-
+Мы выбрали для использования MVC (Model-View-Controler)
 Поскольку сервер предполагается деплоить на Azure Cloud, разумным будет использовать компоненты референтной архитектуры, которые он представляет
 
 Сервисы которые нам могут подойти:
