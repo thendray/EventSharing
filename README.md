@@ -222,10 +222,11 @@
 ---
 ## Архитектура
 
-![MVC](https://github.com/thendray/EventSharing/blob/main/img/модель.jpg)
+![MVVM](https://github.com/thendray/EventSharing/blob/main/img/модель.jpg)
 
 ### Референсная модель
-Мы выбрали для использования MVC (Model-View-Controler)
+Мы выбрали для использования MVVM (Model-View-View Model)
+
 Поскольку сервер предполагается деплоить на Azure Cloud, разумным будет использовать компоненты референтной архитектуры, которые он представляет
 
 Сервисы которые нам могут подойти:
