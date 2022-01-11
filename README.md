@@ -268,7 +268,7 @@ Azure Gateway – сервис для балансировки нагрузки 
 
 ![](https://github.com/thendray/EventSharing/blob/main/img/azure-arch.png)
 
-Использование БД
+[Использование БД](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/scalable-web-and-mobile-applications-using-azure-database-for-postgresql)
 
 ![](https://github.com/thendray/EventSharing/blob/main/img/azure-sql.png)
 
