@@ -266,6 +266,6 @@ Azure Gateway – сервис для балансировки нагрузки 
 
 Использование БД
 
-![](
+![](https://github.com/thendray/EventSharing/blob/main/img/azure-sql.png)
 
 ### Docker
