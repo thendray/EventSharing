@@ -268,4 +268,4 @@ Azure Gateway – сервис для балансировки нагрузки 
 
 ![](https://github.com/thendray/EventSharing/blob/main/img/azure-sql.png)
 
-### Docker
+
