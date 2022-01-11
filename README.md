@@ -264,7 +264,7 @@ Azure Pipelines – сервис, реализует механизмы непр
 
 Azure Gateway – сервис для балансировки нагрузки трафика на модули сервера, оптимизации путей поставки контента и защиту сервера от вредоносных атак
 
-Архитектура, предлагаемая Microsoft
+[Архитектура, предлагаемая Microsoft](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-devops-continuous-integration-and-continuous-deployment-for-azure-web-apps)
 
 ![](https://github.com/thendray/EventSharing/blob/main/img/azure-arch.png)
 
