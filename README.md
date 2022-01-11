@@ -227,6 +227,7 @@
 ### Референсная модель
 Мы выбрали для использования MVVM (Model-View-View Model)
 ![](https://github.com/thendray/EventSharing/blob/main/img/MVVM.png)
+
 **View** - веб клиент
 
 **Model** - база данных
