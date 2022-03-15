@@ -8,7 +8,11 @@
 
 ![](https://github.com/thendray/EventSharing/blob/main/img/qrSite.png)
 
-**Прямая ссылка**
+**Прямая ссылка на сайт**
+
+https://eventsharing.azurewebsites.net/
+
+**Ссылка на код**
 
 https://eventsharing.azurewebsites.net/
 ***
