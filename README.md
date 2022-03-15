@@ -252,26 +252,10 @@ Event Sharing, впервую очередь, это сервис доступн
 ![MVVM](https://github.com/thendray/EventSharing/blob/main/img/модель.jpg)
 
 ### Референсная модель
-Мы выбрали для использования MVVM (Model-View-View Model). Шаблон MVVM, в конечном счете, является современной структурой шаблона MVC, поэтому основная цель остается той же, чтобы обеспечить четкое разделение между предметной логикой и уровнем представления.
+Мы выбрали для использования MVC(Model-View-Controller). Структура архитектуры MVC разделяет приложение на три основных группы компонентов: модели, представлении и контроллеры. Это позволяет реализовать принципы разделения задач. Согласно этой структуре запросы пользователей направляются в контроллер, который отвечает за работу с моделью для выполнения действий пользователей и (или) получение результатов запросов. Контроллер выбирает представление для отображения пользователю со всеми необходимыми данными модели.
 
-**Преимущества**
 
-* Четкое разделение различных типов кода должно облегчить переход к одной или нескольким более детализированным и целенаправленным частям и вносить изменения, не беспокоясь
-* С MVVM каждый фрагмент кода является более детализированным, внешние и внутренние зависимости находятся в отдельных фрагментах кода от частей с базовой логикой
-
-**Возможные недостатки**
-
-* Некоторые люди думают, что для простых пользовательских интерфейсов MVVM может быть излишним.
-* Точно так же в больших случаях может быть трудно спроектировать ViewModel.
-* Отладка будет немного сложнее, когда у нас сложные привязки данных
-
-![](https://github.com/thendray/EventSharing/blob/main/img/MVVM.png)
-
-**View** - веб клиент
-
-**Model** - база данных
-
-**View Model** - серевер
+![](https://github.com/thendray/EventSharing/blob/main/img/MVC.png)
 
 ---
 
@@ -293,11 +277,9 @@ Azure Gateway – сервис для балансировки нагрузки 
 
 [Архитектура, предлагаемая Microsoft](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/azure-devops-continuous-integration-and-continuous-deployment-for-azure-web-apps)
 
-![](https://github.com/thendray/EventSharing/blob/main/img/azure-arch.png)
+Наше решение
+![](https://github.com/thendray/EventSharing/blob/main/img/arch.png)
 
-[Использование БД](https://docs.microsoft.com/en-us/azure/architecture/solution-ideas/articles/scalable-web-and-mobile-applications-using-azure-database-for-postgresql)
-
-![](https://github.com/thendray/EventSharing/blob/main/img/azure-sql.png)
 
 ### Docker
 Образ приложения на Docker Hub - https://hub.docker.com/repository/docker/korbis5/eventsharing
