@@ -3,7 +3,9 @@
 
 Перейти на сайт вы можете, использую qr код или по ссылке.
 **QR**
+
 ![](https://github.com/thendray/EventSharing/blob/main/img/qrSite.png)
+
 **Прямая ссылка**
 https://eventsharing.azurewebsites.net/
 
