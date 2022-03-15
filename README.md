@@ -300,3 +300,6 @@ Azure Gateway – сервис для балансировки нагрузки 
 ![](https://github.com/thendray/EventSharing/blob/main/img/azure-sql.png)
 
 ### Docker
+Образ контейнезированного приложения на Docker Hub - https://hub.docker.com/repository/docker/korbis5/eventsharing
+Запуск приложения на любой машине с установленным Docker:
+docker run -p 5001:443 korbis5/eventsharing:0.0.3
